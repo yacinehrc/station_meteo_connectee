@@ -1,4 +1,5 @@
 # station_meteo_connectee
+![IMG20260402093954](https://github.com/user-attachments/assets/fdabf3a3-16a2-4432-ac82-4df089517d6d)
 
 
 ~ PRÉSENTATION ~
@@ -7,35 +8,37 @@ Ce projet MSPR (Mise en Situation Profesionnelle Reconstituée) a pour objectif 
 
 ~ EXPLICATIONS DU CODE ~
 
-- Bibliothèques nécessaires au code :
-
+- Biblio
+thèques nécessaires au code :
+<img width="680" height="63" alt="bibliotheques" src="https://github.com/user-attachments/assets/a0e81641-1fe0-4702-b412-4f402fb84813" />
 
 
 - Configuration du LCD :
+<img width="545" height="45" alt="config_du_lcd" src="https://github.com/user-attachments/assets/fa64e46c-38ff-4265-8182-a15aa736d46f" />
 
 
-- Initialisation et pin du capteur DHT11 :
-
+- Boucle "void_setup" qui initialise les composants (DHT et LCD) :
+<img width="644" height="176" alt="boucle_void_setup" src="https://github.com/user-attachments/assets/6bc4f165-b5b4-4eec-aa01-ecf600a9465b" />
 
 
 - Lecture de la température et de l'humidité (transformé en nombre décimal (float) pour plus de précision) et procédure d'erreur du DHT :
+<img width="522" height="155" alt="condition_DHT" src="https://github.com/user-attachments/assets/413be867-d854-4260-a973-89d810ad1db7" />
 
 
 - Calcule la chaleur ressentie par l'Homme (false → Celsius (°C)) :
+<img width="523" height="42" alt="temperature_ressentie" src="https://github.com/user-attachments/assets/a275e593-32ff-4330-85e3-fc0b44d21a1c" />
 
 
 - Affichage des données sur le LCD :
-
+<img width="473" height="154" alt="affichage_lcd" src="https://github.com/user-attachments/assets/4965cd89-1004-4fe1-a4b9-bee153b6f154" />
 
 
 - Affichage de la température sur le LCD en degré Celsius avec un emplacement précis ("Météo actuelle" sur la première ligne collée à gauche et "Temp.: ... C" sur la ligne du dessous toujours collée à gauche) et un temps de 1 seconde avant de passer à l'humidité :
+<img width="469" height="171" alt="affichage_temperature" src="https://github.com/user-attachments/assets/5525ccd8-b06a-4dd6-ad5b-26afd340a9a5" />
 
 
 - Affichage de l'humidité sur le LCD en % avec un emplacement précis ("Météo actuelle" sur la première ligne collée à gauche et "Humidite: ... %" sur la ligne du dessous toujours collée à gauche) et un temps de 1 seconde avant de revenir à afficher la température :
-
-
-
-
+<img width="456" height="191" alt="affichage_humidite" src="https://github.com/user-attachments/assets/da64357c-691f-47c3-8572-d8a2bee364e9" />
 
 
 ~ MODÉLISATION 3D ~
@@ -97,7 +100,7 @@ https://github.com/user-attachments/assets/44796cd1-79cd-42eb-9423-b337a701ca62
 
 1. Avoir un plus beau design : Arrondir les coins de boîtes afin d'avoir un design plus moderne, créer un couvercle "clipsable" pour être sûr que le couvercle reste bien attaché à la boîte, ...
 
-2. Penser encore plus éco-responsablement : Utiliser encore moins de matière car actuellement, le volume de la boîte est bien plus supérieur à ce qui est nécessaire.
+2. Penser encore plus éco-responsablement : Penser encore plus à l'éco-conception et utiliser encore moins de matière car actuellement, le volume de la boîte est bien plus supérieur à ce qui est nécessaire.
 
 3. Rajouter un capteur LDR (Light Dependent Resistor) pour mesurer le taux de lumière : L'idée était déjà dans notre projet, malheureusement, vu que nous découvrons le langage Arduino et que nous avons eu qu'une dizaine d'heures pour le projet, il a été compliqué de maîtriser le code pour avoir un taux en % correcte. Lors de nos essaies, à pleine lumière, le taux était de 100% tandis qu'en pleine obscurité, le taux était de 79%, ce qui n'était pas cohérent. Nous avons essayé un autre code mais à pleine lumière, cela affichait 520, 780, 650, et dans l'obscurité -40, -70, ... Code pour le LDR :
 <img width="739" height="126" alt="Capture d&#39;écran 2026-04-02 141501" src="https://github.com/user-attachments/assets/bd6c5f5c-c69f-4e8c-ae95-8418b404cdc8" />
