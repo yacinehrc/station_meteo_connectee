@@ -1,7 +1,5 @@
 # station_meteo_connectee
-https://github.com/user-attachments/assets/a193601b-9819-4b17-914b-8c8dd9b5e249
-
-
+https://github.com/user-attachments/assets/10f8907c-ca45-4fff-b08f-5032e6d45069
 
 ~ PRÉSENTATION ~
 
