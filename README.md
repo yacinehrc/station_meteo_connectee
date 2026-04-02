@@ -10,5 +10,9 @@ découverte pour nous.
 ~ EXPLICATIONS DU CODE ~
 
 ~ MODÉLISATION 3D ~
-https://github.com/user-attachments/assets/10f8907c-ca45-4fff-b08f-5032e6d45069
+
+https://github.com/user-attachments/assets/d20d8418-3575-4da9-8114-7250d87fa3c7
+
+
+
 ~ PERSPECTIVES D'AMÉLIORATION ~
