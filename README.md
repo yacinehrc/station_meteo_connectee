@@ -102,6 +102,8 @@ https://github.com/user-attachments/assets/44796cd1-79cd-42eb-9423-b337a701ca62
 
 2. Penser encore plus éco-responsablement : Penser encore plus à l'éco-conception et utiliser encore moins de matière car actuellement, le volume de la boîte est bien plus supérieur à ce qui est nécessaire.
 
-3. Rajouter un capteur LDR (Light Dependent Resistor) pour mesurer le taux de lumière : L'idée était déjà dans notre projet, malheureusement, vu que nous découvrons le langage Arduino et que nous avons eu qu'une dizaine d'heures pour le projet, il a été compliqué de maîtriser le code pour avoir un taux en % correcte. Lors de nos essaies, à pleine lumière, le taux était de 100% tandis qu'en pleine obscurité, le taux était de 79%, ce qui n'était pas cohérent. Nous avons essayé un autre code mais à pleine lumière, cela affichait 520, 780, 650, et dans l'obscurité -40, -70, ... Code pour le LDR :
+3. Rajouter une LED : Cette LED pourrait varier entre le bleu et le rouge, bleu lorsqu'il fait froid, rouge lorsqu'il fait chaud.
+
+4. Rajouter un capteur LDR (Light Dependent Resistor) pour mesurer le taux de lumière : L'idée était déjà dans notre projet, malheureusement, vu que nous découvrons le langage Arduino et que nous avons eu qu'une dizaine d'heures pour le projet, il a été compliqué de maîtriser le code pour avoir un taux en % correcte. Lors de nos essaies, à pleine lumière, le taux était de 100% tandis qu'en pleine obscurité, le taux était de 79%, ce qui n'était pas cohérent. Nous avons essayé un autre code mais à pleine lumière, cela affichait 520, 780, 650, et dans l'obscurité -40, -70, ... Code pour le LDR :
 <img width="739" height="126" alt="Capture d&#39;écran 2026-04-02 141501" src="https://github.com/user-attachments/assets/bd6c5f5c-c69f-4e8c-ae95-8418b404cdc8" />
 <img width="739" height="51" alt="pin_et_variable_DHT11" src="https://github.com/user-attachments/assets/b56cbb97-a3ed-4edb-878a-c486ea8e7412" />
