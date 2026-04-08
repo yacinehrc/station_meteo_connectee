@@ -2,7 +2,7 @@
 ![IMG20260402093954](https://github.com/user-attachments/assets/fdabf3a3-16a2-4432-ac82-4df089517d6d)
 
 
---
+---
 ~ PRÉSENTATION ~
 
 Ce projet MSPR (Mise en Situation Profesionnelle Reconstituée) a pour objectif de nous mettre en situation afin de créer une station-météo connectée à l'aide d'une Arduino Uno et d'un capteur DHT 11 (qui seront finalement accompagnés d'une breadboard, de câbles Dupont et d'un écran LCD (Liquid Crystal Display)), et aussi de découvrir le monde du 3D (modélisation, éco-conception, géométrie dans l'espace, ...) et le langage Arduino.
