@@ -7,12 +7,12 @@
 
 Ce projet MSPR (Mise en Situation Profesionnelle Reconstituée) a pour objectif de nous mettre en situation afin de créer une station-météo connectée à l'aide d'une Arduino Uno et d'un capteur DHT 11 (qui seront finalement accompagnés d'une breadboard, de câbles Dupont et d'un écran LCD (Liquid Crystal Display)), et aussi de découvrir le monde du 3D (modélisation, éco-conception, géométrie dans l'espace, ...) et le langage Arduino.
 
---
+---
 ~ FONCTIONNEMENT ~
 
 Le capteur DHT11 (qui récupère la température et l'humidité) va le "traduire" en ressenti (car le capteur au soleil peut par exemple afficher 30°C, pourtant il ne fait que 15°C dans la pièce où il se trouve). Puis, ces données vont être récupéré dans le code pour afficher sur l'écran LCD la météo actuelle avec donc la température en °C et le taux d'humidité en %.
 
---
+---
 ~ EXPLICATIONS DU CODE ~
 
 - Biblio
@@ -48,7 +48,7 @@ thèques nécessaires au code :
 <img width="456" height="191" alt="affichage_humidite" src="https://github.com/user-attachments/assets/da64357c-691f-47c3-8572-d8a2bee364e9" />
 
 
---
+---
 ~ MODÉLISATION 3D ~
 
 - Esquisse de la boîte (150.000mm x 90.000mm) :
@@ -104,7 +104,7 @@ thèques nécessaires au code :
 https://github.com/user-attachments/assets/44796cd1-79cd-42eb-9423-b337a701ca62
 
 
---
+---
 ~ PERSPECTIVES ENVISAGEABLES ~
 
 1. Avoir un plus beau design : Arrondir les coins de boîtes afin d'avoir un design plus moderne, créer un couvercle "clipsable" pour être sûr que le couvercle reste bien attaché à la boîte, ...
