@@ -91,7 +91,7 @@ thèques nécessaires au code :
 <img width="1619" height="849" alt="rendu_final_2" src="https://github.com/user-attachments/assets/c5f74511-feaf-45f9-b84f-e1fb909027e2" />
 
 
-- Modélisation finale (vidéo) :
+- Évolution de la modélisation :
 
 https://github.com/user-attachments/assets/44796cd1-79cd-42eb-9423-b337a701ca62
 
