@@ -15,8 +15,7 @@ Le capteur DHT11 (qui récupère la température et l'humidité) va le "traduire
 ---
 ~ EXPLICATIONS DU CODE ~
 
-- Biblio
-thèques nécessaires au code :
+- Bibliothèques nécessaires au code :
 <img width="680" height="63" alt="bibliotheques" src="https://github.com/user-attachments/assets/a0e81641-1fe0-4702-b412-4f402fb84813" />
 
 
